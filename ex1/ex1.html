@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="ex1.css" />
+    <style></style>
+  </head>
+  <body>
+    <form action=" ">
+      <h1 class="text-center">HTML Form Exercise</h1>
+      <p>
+        <span class="text-red"> Please Note: </span>
+        This example demonstrate how HTML forms can be used. Submit button should submit the button , reset button
+        should reset the form(revert the changes in form)
+      </p>
+
+      <h3>Contact Form</h3>
+      <div class="form-input" >
+        <label class="w-10" for="name"> Your Name*: </label>
+        <input type="text" id="name" required value="" />
+      </div>
+
+      <div class="form-input" >
+        <label class="w-10" for="email"> E-mail*: </label>
+        <input class="bg-yellow" type="text" id="email" required value="" />
+      </div>
+
+      <div class="form-input" >
+        <label class="w-10" for="Phone"> Phone Number*: </label>
+        <input class="bg-yellow" type="number" id="phone" required value="" />
+      </div>
+
+      <div class="form-input" >
+        <label class="w-10" for="website"> Website*: </label>
+        <input type="url" id="website" required value="http://" />
+      </div> 
+
+      <div class="form-input">
+        <label class="w-10" for="comments">Comments*:</label><br>
+        <textarea id="comments" rows="5" cols="60" required></textarea>
+      </div>
+
+      <div class="form-input">
+        <h4>Text Field</h4>
+        <label for="yname"> Your Name*: </label><br />
+        <input class="bg-yellow" type="text" id="yname" value=" " /> <br />
+      </div>
+
+      <div class="form-input">
+        <h4>Password Field</h4>
+        <label for="password"> Password*: </label><br />
+        <input type="password" id="password" value="" /> <br />
+      </div>
+
+      <div class="form-input">
+        <h4>Radio Buttons</h4>
+        <p>Do you like pizza?</p>
+        <input type="radio" id="yes" checked name="pizza" value="Yes" />
+        <label for="yes">Yes</label> <br />
+        <input type="radio" id="no" name="pizza" value="No" />
+        <label for="no">No</label> <br />
+        <input type="radio" id="Maybe" name="pizza" value="Maybe" />
+        <label for="Maybe">Maybe</label> <br />
+        <input type="radio" id="Nevertried" name="pizza" value="Nevertried" />
+        <label for="Nevertried">Never Tried</label>
+      </div>
+
+      <div class="form-input">
+        <h4>Checkbox</h4>
+        <input type="checkbox" id="like" name="service" value="like" />
+        <label for="like">Check this box if you like our service</label>
+      </div>
+
+      <div class="form-input">
+        <h4>Text Area</h4>
+        <label for="feedback">Anything you would like to say?</label><br />
+        <textarea id="feedback" rows="4" cols="40"></textarea><br />
+      </div>
+
+      <div class="form-input">
+        <h4><label for="likes">I like</label></h4>
+        <select name="likes" id="likes" size="5">
+          <option selected value="mushroom">Mushroom</option>
+          <option value="green pepper">Green pepper</option>
+          <option value="onion">Onion</option>
+          <option value="tomato">Tomato</option>
+          <option value="olived">Olives</option>
+        </select>
+      </div>
+
+      <div class="form-input">
+        <h4>Menu</h4>
+        <label for="fav">Your favourite color:</label><br />
+        <select name="fav" id="fav">
+          <option value="fav">Red</option>
+        </select>
+      </div>
+
+      <div class="form-input">
+        <h4><label for="file">Attach a file</label></h4>
+        <input type="file" id="file" name="file" /><br /><br />
+      </div>
+
+      <div class="form-input">
+        <h4>Buttons</h4>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </div>
+    </form>
+  </body>
+</html>
