@@ -1,0 +1,72 @@
+body {
+    font-family: 'tamoha';
+}
+
+
+
+
+header {
+    background-color: #b2e7ff;
+    padding: 10px;
+    font-size: 24px;
+    color:black;
+    text-align: center;
+    border-bottom: solid 2px #0ab1ff;
+}
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+
+
+
+}
+aside , section {
+    border: solid 2px black;
+}
+
+aside {
+    /* width: 250px; */
+    flex: 1;
+    padding: 25px 10px;
+    background-color: #0ab1ff;
+}
+aside p {
+    font-size: 12px;
+}
+aside ul {
+    padding: 10px;
+}
+ aside h1 {
+    font-size: 18px;
+    
+ } 
+ aside li , aside a {
+    font-size: 14px;
+    color: white;
+ }
+
+section {
+    flex: 4;
+    /* width: 750px; */
+    background-color: #ededed;
+    padding: 20px;
+}
+
+section h1 {
+    
+    font-size: 24px;
+}
+
+section p { 
+font-size: 14px;
+color: #802525;
+}
+footer {
+    font-size: 24px;
+    text-align: center;
+    border-bottom: solid 2px #0ab1ff;
+    background-color: #3cff78;
+    padding: 10px;
+
+}
